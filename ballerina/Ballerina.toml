@@ -13,6 +13,9 @@ org = "ballerina"
 name = "workflow"
 version = "0.3.0"
 
+[build-options]
+observabilityIncluded = true
+
 [platform.java21]
 graalvmCompatible = false
 
