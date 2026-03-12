@@ -16,7 +16,7 @@
  * under the License.
  */
 
-package io.ballerina.stdlib.workflow.activity;
+package io.ballerina.lib.workflow.activity;
 
 import io.ballerina.runtime.api.Environment;
 import io.ballerina.runtime.api.Module;

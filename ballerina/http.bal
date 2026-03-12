@@ -91,7 +91,7 @@ public isolated function sendHttpRequest(string url, HttpMethod method = "GET",
         map<string>? headers = (), anydata? payload = (),
         BasicAuth|BearerAuth? auth = (),
         typedesc<anydata> targetType = <>) returns targetType|error = @java:Method {
-    'class: "io.ballerina.stdlib.workflow.activity.BuiltinActivityNative",
+    'class: "io.ballerina.lib.workflow.activity.BuiltinActivityNative",
     name: "sendHttpRequest"
 } external;
 

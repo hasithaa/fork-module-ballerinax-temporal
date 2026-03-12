@@ -21,7 +21,7 @@ graalvmCompatible = false
 
 # Native implementation
 [[platform.java21.dependency]]
-groupId = "io.ballerina.stdlib"
+groupId = "io.ballerina.lib"
 artifactId = "workflow-activity-native"
 version = "@toml.version@"
 path = "../native/build/libs/workflow-activity-native-@project.version@.jar"

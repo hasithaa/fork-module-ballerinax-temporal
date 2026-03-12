@@ -97,7 +97,7 @@ subprojects {
         ballerinaStdLibs "io.ballerina:observe-ballerina:${observeInternalVersion}"
 
         /* Workflow module dependency */
-        ballerinaStdLibs "io.ballerina.stdlib:workflow-ballerina:${stdlibWorkflowVersion}"
+        ballerinaStdLibs "io.ballerina.lib:workflow-ballerina:${stdlibWorkflowVersion}"
     }
 }
 

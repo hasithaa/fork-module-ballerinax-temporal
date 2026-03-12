@@ -27,6 +27,6 @@ function init() returns error? {
 # Initializes the workflow.activity module.
 # Captures the module reference for creating Ballerina record values in native code.
 function initModule() = @java:Method {
-    'class: "io.ballerina.stdlib.workflow.activity.ModuleUtils",
+    'class: "io.ballerina.lib.workflow.activity.ModuleUtils",
     name: "setModule"
 } external;
