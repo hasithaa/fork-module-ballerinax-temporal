@@ -1,0 +1,24 @@
+[package]
+org = "ballerina"
+name = "workflow.activity"
+version = "0.1.0"
+authors = ["Ballerina"]
+keywords = ["workflow", "activity", "http"]
+repository = "https://github.com/ballerina-platform/module-ballerina-workflow.activity"
+license = ["Apache-2.0"]
+distribution = "2201.13.0"
+
+[[dependency]]
+org = "ballerina"
+name = "workflow"
+version = "0.3.0"
+
+[platform.java21]
+graalvmCompatible = false
+
+# Native implementation
+[[platform.java21.dependency]]
+groupId = "io.ballerina.stdlib"
+artifactId = "workflow-activity-native"
+version = "0.1.0"
+path = "../native/build/libs/workflow-activity-native-0.1.0-SNAPSHOT.jar"

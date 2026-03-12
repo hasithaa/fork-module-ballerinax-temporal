@@ -1,0 +1,10 @@
+# Integration test configuration - requires a running Temporal server
+
+[ballerina.workflow.workflowConfig]
+mode = "LOCAL"
+url = "localhost:7233"
+namespace = "default"
+
+[ballerina.workflow.workflowConfig.scheduler]
+taskQueue = "BALLERINA_WORKFLOW_TASK_QUEUE"
+maxConcurrentWorkflows = 100
